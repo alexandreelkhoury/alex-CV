@@ -60,7 +60,7 @@ body{
 .profile h2
 {
     color: #fff;
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin-top: 20px;
     text-transform: uppercase;
     text-align:center;
@@ -83,6 +83,7 @@ body{
     font-weight: 600;
     letter-spacing: 1px;
     margin-bottom: 20px;
+    margin-top: 30px;
 }
 .contactInfo ul 
 {
@@ -119,14 +120,12 @@ body{
 }
 .education p
 {
-    color: #fff;
-    font-weight: 500;
+    font-weight: 750;
     margin-top: 3px;
     font-style: italic;
 }
 .education h4
 {
-    color: #fff;
     font-weight: 300;
     margin-top: 3px;
 }
@@ -162,7 +161,9 @@ body{
     height: 100%;
     background: #03a9f4;
 }
-
+.langage{
+    margin-top: 30px;
+}
 .container .right_Side
 {
     position: relative;
@@ -183,13 +184,14 @@ body{
     color: #003147;
     text-transform: uppercase;
     letter-spacing: 1px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 30px;
 }
 #lien{
     color: #333;
 }
-#lien1{
-    color: #333;
+#lien:hover{
+    text-decoration: underline;
 }
 p
 {
@@ -227,7 +229,7 @@ color: #333;
 .skills ul
 {
 display: grid;
-grid-template-columns: repeat(3,1fr);
+grid-template-columns: repeat(4,1fr);
 list-style: none;
 color: #333;
 font-weight: 500;
@@ -236,12 +238,12 @@ margin: 10px 0;
 .interest ul
 {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(2,1fr);
 }
 .interest ul li 
 {
     list-style: none;
-    color: #333;
+    color: white;
     font-weight: 500;
     margin: 10px 0;
 }
