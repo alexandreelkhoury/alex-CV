@@ -261,13 +261,14 @@ margin: 10px 0;
     {
         margin-bottom: 5px;
     }
-    .interest ul
-    {
-        grid-template-columns: repeat(1,1fr);
-    }
     .skills .box
     {
         grid-template-columns: repeat(1,1fr);
+    }
+    .box{
+        display: grid;
+        grid-template-columns: 1fr 6fr;
+        margin-bottom: 10px;
     }
 }
 a{
