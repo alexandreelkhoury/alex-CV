@@ -206,14 +206,15 @@ color: #333;
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
 .skills ul
 {
-display: grid;
-grid-template-columns: repeat(4,1fr);
-list-style: none;
-color: #333;
-font-weight: 500;
-margin: 10px 0;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    list-style: none;
+    color: #333;
+    font-weight: 500;
+    margin: 10px 0;
 }
 .box{
     display: grid;
@@ -272,7 +273,7 @@ margin: 10px 0;
     }
 }
 a{
-    text-decoration: none;
+    text-decoration: underline;
     color: white;
 }
 a:visited
