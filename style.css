@@ -1,19 +1,19 @@
-*
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-body{
+
+body {
     background: lightblue;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
-.container
-{
+
+.container {
     position: relative;
     width: 100%;
     max-width: 1000px;
@@ -24,32 +24,32 @@ body{
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
 }
-.container .left_Side
-{
+
+.container .left_Side {
     position: relative;
     background: #003147;
     padding: 40px;
 
 }
-.profile
-{
+
+.profile {
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-bottom: 10px;
-    border-bottom: 1px solid rgba(255,255,255,0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
-.profile .imgbox
-{
+
+.profile .imgbox {
     position: relative;
     width: 200px;
     height: 200px;
     border-radius: 50%;
     overflow: hidden;
 }
-.imgbox img 
-{
+
+.imgbox img {
     position: absolute;
     top: 0;
     left: 0;
@@ -57,27 +57,27 @@ body{
     height: 100%;
     object-fit: cover;
 }
-.profile h2
-{
+
+.profile h2 {
     color: #fff;
     font-size: 1.2em;
     margin-top: 20px;
     text-transform: uppercase;
-    text-align:center;
+    text-align: center;
     font-weight: 600;
     line-height: 1.4em;
 }
-.profile h2 span 
-{
+
+.profile h2 span {
     font-size: 0.8em;
     font-weight: 300;
 }
-.contactInfo
-{
+
+.contactInfo {
     padding-top: 40px;
 }
-.title
-{
+
+.title {
     color: #fff;
     text-transform: uppercase;
     font-weight: 600;
@@ -85,60 +85,61 @@ body{
     margin-bottom: 20px;
     margin-top: 30px;
 }
-.contactInfo ul 
-{
+
+.contactInfo ul {
     position: relative;
 
 }
-.contactInfo ul li
-{
+
+.contactInfo ul li {
     position: relative;
     list-style: none;
     margin: 10px 0;
     cursor: pointer;
 }
-.contactInfo ul li .icon
-{
+
+.contactInfo ul li .icon {
     display: inline-block;
     width: 30px;
     font-size: 18px;
     color: #03a9f4;
 }
-.contactInfo ul li span
-{
+
+.contactInfo ul li span {
     color: #fff;
     font-weight: 300;
 }
-.education li
-{
+
+.education li {
     margin-bottom: 15px;
 }
-.education h5
-{
+
+.education h5 {
     color: #03a9f4;
     font-weight: 500;
 }
-.education p
-{
+
+.education p {
     font-weight: 750;
     margin-top: 3px;
     font-style: italic;
 }
-.education h4
-{
+
+.education h4 {
     font-weight: 300;
     margin-top: 3px;
 }
-.education h3
-{
+
+.education h3 {
     padding-top: 20px;
 }
-.education ul
-{
+
+.education ul {
     list-style: none;
 }
-.langage .percent
-{
+
+
+.langage .percent {
     position: relative;
     width: 100%;
     height: 6px;
@@ -147,141 +148,141 @@ body{
     margin-top: 5px;
 }
 
-.langage ul li
-{
-    color: #fff; 
+.langage ul li {
+    color: #fff;
     list-style: none;
     font-weight: 200;
     margin-bottom: 10px;
 }
-.langage .percent div
-{
+
+.langage .percent div {
     position: absolute;
-    top: 0px ;
+    top: 0px;
     left: 0;
     height: 100%;
     background: #03a9f4;
 }
-.langage{
+
+.langage {
     margin-top: 30px;
 }
-.container .right_Side
-{
+
+.container .right_Side {
     position: relative;
     background: #fff;
     padding: 40px;
-    
+
 }
-.about
-{
+
+.about {
     margin-bottom: 50px;
 }
-.about :last-child
-{
+
+.about :last-child {
     margin-bottom: 0;
 }
-.title2
-{
+
+.title2 {
     color: #003147;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 20px;
     margin-top: 30px;
 }
-#lien{
+
+#lien {
     color: #333;
 }
-#lien:hover{
+
+#lien:hover {
     text-decoration: underline;
 }
-p
-{
-color: #333;
+
+p {
+    color: #333;
 }
 
-.t3
-{
+.t3 {
     color: #2a7da2;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
 
-.skills ul
-{
+.skills ul {
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(5, 1fr);
     list-style: none;
     color: #333;
     font-weight: 500;
     margin: 10px 0;
 }
-.box{
+
+.box {
     display: grid;
     grid-template-columns: 1fr 4fr;
     margin-bottom: 10px;
 }
-.interest ul
-{
+
+.interest ul {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
 
-.interest ul li 
-{
+.interest ul li {
     list-style: none;
     color: white;
     font-weight: 500;
     margin: 10px 0;
 }
-.interest ul li .fa 
-{
+
+.interest ul li .fa {
     color: #03a9f4;
     font-size: 18px;
     width: 20px;
 }
-@media (max-width: 1000px)
-{
-    .container
-    {
+
+@media (max-width: 1000px) {
+    .container {
         margin: 10px;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
-    .interest ul 
-    {
-        grid-template-columns: repeat(2,1fr);
+
+    .interest ul {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
-@media (max-width: 600px)
-{
-    .about .box
-    {
+
+@media (max-width: 600px) {
+    .about .box {
         flex-direction: column;
     }
-    .about .box .year_company 
-    {
+
+    .about .box .year_company {
         margin-bottom: 5px;
     }
-    .skills .box
-    {
-        grid-template-columns: repeat(1,1fr);
+
+    .skills .box {
+        grid-template-columns: repeat(1, 1fr);
     }
-    .box{
+
+    .box {
         display: grid;
         grid-template-columns: 1fr 6fr;
         margin-bottom: 10px;
     }
 }
-a{
+
+a {
     text-decoration: underline;
     color: white;
 }
-a:visited
-{
-    color :white
+
+a:visited {
+    color: white
 }
-a:hover
-{
+
+a:hover {
     color: #03a9f4;
     border-bottom: 1px solid;
 }
